@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.header h1 {
+    color: rgb(0, 0, 0);
+    padding-bottom: 2rem;
+    max-width: 60rem;
+    line-height: 2;
+    font-size: 2 rem;
+}
+
+
+.header {
+    background-image: url(./img/bio.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.enlaces {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.contenedor {
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
